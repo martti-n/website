@@ -1,0 +1,242 @@
+/*
+855 laius läheb "about-me" perse
+*/
+
+@media only screen and (max-width: 480px) {
+    html,
+    body {
+        font-size: 18px;
+    }
+
+    .section {
+        width: 100%;
+    }
+    /*     HEADER      */
+    .header {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .my-nav li {
+         margin: 10px 10px;
+    }
+    /*        ABOUT ME          */
+    .about-me {
+        font-size: 14px;
+        height: auto;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin: 0 10%;
+        font-size: 17px;
+    }
+
+    .my_row {
+        width: 80%;
+    }
+
+    .small-text {
+        font-size: 16px;
+    }
+    /*           MY PROJECTS             */
+
+    .projects {
+        height: auto;
+        background-color: white;
+    }
+
+    .projects img {
+        height: 250px;
+        width: 300px;
+    }
+
+    .btns2 {
+        margin-bottom: 20px;
+    }
+
+    /*             SKILLS                     */
+
+    .skills {
+        height: auto;
+    }
+
+    /*                 SPORTS                      */
+
+    .sports {
+        height: auto;
+        background-color: white;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    html,
+    body {
+        font-size: 18px;
+    }
+
+    .header {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .about-me {
+        height: auto;
+    }
+
+    .projects {
+        height: auto;
+        background-color: white;
+    }
+
+    .projects img {
+        height: 150px;
+        width: 230px;
+    }
+
+    .sports {
+        height: auto;
+        background-color: white;
+    }
+
+    .btns1 {
+        margin-top: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 1023px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .about-me {
+        height: auto;
+    }
+
+    .projects {
+        height: auto;
+        background-color: white;
+    }
+
+    .projects img {
+        height: 150px;
+        width: 230px;
+    }
+
+    .sports {
+        height: auto;
+        background-color: white;
+    }
+
+    .btns1 {
+        margin-top: 23px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header {
+        font-size: 18px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .about-me {
+        height: auto;
+    }
+
+    .projects {
+        height: auto;
+        background-color: white;
+    }
+
+    .skicalc {
+        width: 400px;
+    }
+
+    .sports {
+        height: auto;
+        background-color: white;
+    }
+
+    .btns1 {
+        margin-top: 23px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header {
+        font-size: 20px;
+        opacity: 0.9;
+        height: 50px;
+    }
+    section {
+        width: 75%;
+        margin: 0px auto;
+        background-color: white;
+    }
+
+    .about {
+        padding-top: 80px;
+        
+    }
+    
+    .about-me {
+        height: 150vh;
+        font-size: 120%;
+    }
+
+    .projects {
+        background-color: white;
+        font-size: 120%;
+    }
+
+    .sports {
+        background-color: white;
+        font-size: 120%;
+    }
+
+    .skicalc {
+        width: 400px;
+    } 
+
+    .btns1 {
+        margin-top: 23px;
+    }
+    
+    .text1 {
+        font-size: 300%;
+    }
+    .text2 {
+        font-size: 150%;
+    }
+
+    .about-me h1 {
+        margin-top: 50px;
+    }
+
+    .about-me h1:before {
+        display: none;
+    }
+}
