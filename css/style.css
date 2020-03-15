@@ -217,10 +217,11 @@ Projects
 -----------------------------------------*/
 
 .projects {
-    height: 125vh;
+    height: 175vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .projects h1:after,
@@ -236,10 +237,12 @@ Projects
 }
 
 .projects img {
+    
     padding: 20px;
     height: 250px;
     display: block;
     margin: 0 auto;
+    
 }
 
 .btn:link,
@@ -271,6 +274,11 @@ Projects
     display: block;
     margin: 0 auto;
     width: 70%;
+}
+
+.projects .row {
+    display: flex;
+    justify-content: center;
 }
 
 /*------------------------------------------
